@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("./Quicksand/Quicksand-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+button {
+  font-family: "Quicksand";
+  color: #d2c49a;
+}
+.App {
+  font-family: "Quicksand";
+  height: 100vh;
+  #landing-page {
+    height: 100%;
+    text-align: center;
+    #header-text {
+      font-size: 50px;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+    #background-img {
+      width: 150%;
+      position: absolute;
+      right: -95px;
+      bottom: 100px;
+    }
+    #intro-text-1{
+      margin-top: 400px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .user-type-button {
+      margin: 10px;
+    }
+  }
+  #search-page {
+    #products-list {
+      width: 80%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+       > * {
+        margin-bottom: 20px;
+      }
+     .product {
+        width: 100%;
+        height: 70px;
+        box-shadow: 0px 0px 5px #e2dbdb;
+        border-radius: 6px 6px 6px 6px;
+        position: relative;
+        > * {
+          position: absolute;
+        }
+        .product-seller{
+          
+          margin-left: 5px;
+          margin-top: 5px;
+        }
+        .product-rating {
+    
+          margin-left: 2px;
+          margin-top: 22px;
+        }
+        .product-price {
+          
+          right: 5px;
+          top: 5px;
+          font-size: 12px;
+        }
+        .product-distance {
+          
+          bottom: 5px;
+          left: 5px;
+          font-size: 12px;
+        }
+        .buy-button {
+          right: 5px;
+          bottom: 5px;
+        }
+        .counter-button-group {
+          right: 5px;
+          bottom: 5px;
+        }
+      }
+     
+    }
+  }
+  #cart-page {
+    text-align: center;
+    #cart-header {
+      font-size: 20px;
+    }
+    #cart-contents {
+      width: 80%;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+       > * {
+        margin-bottom: 20px;
+      }
+     .product {
+        width: 100%;
+        height: 70px;
+        box-shadow: 0px 0px 5px #e2dbdb;
+        border-radius: 6px 6px 6px 6px;
+        position: relative;
+        > * {
+          position: absolute;
+        }
+        .product-type{
+
+          margin-left: 5px;
+          margin-top: 5px;
+        }
+        .product-seller {
+          margin-left: 5px;
+          margin-top: 25px;
+          font-size: 12px;
+        }
+        .product-total-price {
+          right:5px;
+          top:5px;
+        }
+        .counter-button-group {
+          right: 5px;
+          bottom: 5px;
+        }
+      }
+     
+    }
+    #bill {
+      position: absolute;
+      bottom: 120px;
+      right: 30px;
+    }
+    #confirm-trans {
+      position: absolute;
+      right: 10px;
+      bottom: 70px;
+    }
+
+  }
+  #buyer-home-page {
+    height: 100vh;
+    text-align: center;
+    #sales-table {
+      .MuiTableCell-head {
+        font-weight: bold;
+      }
+      width: 90%;
+      position: absolute;
+      top: 70px;
+      margin-left: 15px;
+    }
+    #explanatory-text {
+      font-size: 10px;
+      position: absolute;
+      top: 300px;
+      right: 21px;
+    }
+    #button-group {
+      position: absolute;
+      bottom: 150px;
+      .buyer-button {
+        width : 80%;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+  #insight-page {
+    #insight-container{
+      
+      margin-top: 20px;
+      overflow: auto;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px #998c8b;
+      max-height: 300px;
+      margin-left: 15px;
+      width: 90%;
+      #insight-map {
+        width: 250%;
+      }
+    }
+    #selection-types {
+      position: absolute;
+      top: 400px;
+      left: 20px;
+      font-weight: bold;
+      #product-select-type {
+        margin-bottom: 35px;
+      }
+    }
+    #selections {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      width: 50%;
+      top: 400px;
+      right: 15px;
+      .MuiInput-root {
+        font-family: "Quicksand";
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+    }
+    
+  }
+  #inventory-page {
+    #inventory-table {
+      .MuiTableCell-head {
+        font-weight: bold;
+      }
+      position: absolute;
+      margin-left: 30px;
+      margin-top: 40px;
+      width: 300px;
+    }
+  }
+  .counter-button-group {
+    display: 'flex';
+    flex-direction: 'column';
+  }     
+  #header {
+    margin-top: 10px;
+    font-weight: bold;
+    #back-button {
+      position: absolute;
+      left:2px;
+    }
+    #header-text {
+      text-align: center;
+      
+      font-size: 30px;
+    }
+  }
+  #search-box {
+    margin: auto;
+    width: 80%;
+  }
+  #bottom-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+   }
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
