@@ -1,70 +1,40 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+The ongoing pandemic has negatively affected small and medium-sized businesses, something we witnessed personally in the form of the temporary closure of the farmers' market in central Cambridge. During this time, supermarket chains like Sainsburys and Tesco have been able to keep their heads above water by shifting their operations online, thanks to their established customer base and their ability to source things at scale. However, smaller businesses do not have the wherewithal to acquire and retain customers easily, especially during a pandemic. We thus felt a need to empower and support a small subset of SMEs, namely the agricultural industry. 
 
-## Available Scripts
+## Technology
+- React and Redux, JavaScript
+- DjangoREST API Framework, PostgreSQL, Heroku CLI
+- Python, sklearn, seaborn, matplotlib, numpy, pandas
 
-In the project directory, you can run:
+## What it does
+Through Agrio, we aim to connect people with local farmers giving the former more competitive prices and helping the latter by doing away with commission-hungry middlemen.
 
-### `yarn start`
+It also provides intuitive dashboards for Farmers to visualize complex data. We display demand for their products based on location as a heatmap, soil data over time, and potential for other products to grow.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How we built it
+The main front-end application was created using the React-Redux framework. This was interfaced with a database of user purchases and farmer inventory built on Heroku. Lastly, live visualisation tools like the density maps and charts were created using Python, Matplotlib, and Sci-kit Learn.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Challenges we ran into
+- Building a multi-page application with very basic knowledge of React
+- Deploying applications at scale on a server
+- Figuring out how to make the visualisations for the farmers intuitive
 
-### `yarn test`
+## Accomplishments that we're proud of
+- Being able to construct a working prototype within 24 hours
+- Creating aesthetically pleasing visualizations for the sellers' section of the app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What we learned
+- Incorporating geolocation data into data-science pipelines
+- Building a multi-page app with react
+- Hosting on a database on Heroku
 
-### `yarn build`
+## What's next for Agrio
+- Scaling up to more users.
+- Optimize routes (in a similar manner to Uber) finding optimal travel routes for produce deliveries and matching producers to consumers in a manner which optimizes travel times.
+- Incorporating more data sources for visualization:
+	- For example, crop yield data
+	- Weather forecasts and impacts on different crops
+	- Projected consumer trends
+- Using reinforcement learning to recommend crops farmers should sell and grow depending on user demand as well as competitive insights about other farmers in the industry.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
