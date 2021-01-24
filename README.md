@@ -3,9 +3,9 @@
 The ongoing pandemic has negatively affected small and medium-sized businesses, something we witnessed personally in the form of the temporary closure of the farmers' market in central Cambridge. During this time, supermarket chains like Sainsburys and Tesco have been able to keep their heads above water by shifting their operations online, thanks to their established customer base and their ability to source things at scale. However, smaller businesses do not have the wherewithal to acquire and retain customers easily, especially during a pandemic. We thus felt a need to empower and support a small subset of SMEs, namely the agricultural industry. 
 
 ## Technology
-- React and Redux, JavaScript
+- React and Redux, JavaScript, HTML/CSS, SASS, DOM
 - DjangoREST API Framework, PostgreSQL, Heroku CLI
-- Python, sklearn, seaborn, matplotlib, numpy, pandas
+- Python, sklearn, seaborn, matplotlib, numpy, pandas, requests
 
 ## What it does
 Through Agrio, we aim to connect people with local farmers giving the former more competitive prices and helping the latter by doing away with commission-hungry middlemen.
